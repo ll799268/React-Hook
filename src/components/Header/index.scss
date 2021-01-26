@@ -1,0 +1,20 @@
+.header {
+  height: 44px;
+  line-height: 44px;
+  background-color: #1aa9d0;
+  color: #fff;
+  position: relative;
+  h1 {
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 1px;
+  }
+  .add {
+    right: 16px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

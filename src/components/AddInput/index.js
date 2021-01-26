@@ -3,8 +3,11 @@ import React, { useRef } from 'react'
 import './index.scss'
 
 function AddInput (props) {
-  const { inputIsShow, addItem } = props,
-      inputRef = useRef()
+  const { 
+    inputIsShow, 
+    addItem 
+  } = props,
+  inputRef = useRef()
 
   const submitVal = () => {
     const inputValue = inputRef.current.value.trim()

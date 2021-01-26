@@ -7,9 +7,13 @@ import Modal from "../"
 import { formatTime } from '../../../libs/utils'
 
 function EditModal(props) {
-  const { isShowEditModal, data, submitEdit } = props,
-    inputRef = useRef(),
-    checkRef = useRef()
+  const { 
+    isShowEditModal, 
+    data, 
+    submitEdit 
+  } = props,
+  inputRef = useRef(),
+  checkRef = useRef()
 
   const formatNewData = () => {
     const val = inputRef.current.value.trim(),

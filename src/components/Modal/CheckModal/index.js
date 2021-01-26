@@ -8,7 +8,11 @@ import { formatTime } from '../../../libs/utils'
 
 function CheckModal (props) {
 
-  const { isShowCheckModal, data, closeModal } = props
+  const { 
+    isShowCheckModal, 
+    data, 
+    closeModal 
+  } = props
 
   return (
     <Modal

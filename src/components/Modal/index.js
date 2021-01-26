@@ -4,7 +4,11 @@ import './index.scss'
 
 function Modal (props) {
 
-  const { isShowModal, modalTitle, children } = props
+  const { 
+    isShowModal, 
+    modalTitle, 
+    children 
+  } = props
 
   return (
     <>
